@@ -39,6 +39,8 @@ public class Main {
                     else System.out.println(f_num / s_num);
                     break;
             }
+            String result = calculate(String.valueOf(f_num), String.valueOf(operator), String.valueOf(s_num));
+            System.out.println(result);
         }
 
         if (type_calc == 2) {
@@ -86,5 +88,10 @@ public class Main {
                     break;
             }
         }
+
+    }
+
+    public static String calculate(String num1, String operation, String num2) {
+        return null;
     }
 }
